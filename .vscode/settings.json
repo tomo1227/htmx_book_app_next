@@ -1,0 +1,158 @@
+{
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.guides.bracketPairs": true,
+  "editor.rulers": [120],
+  "workbench.colorCustomizations": {
+    "editorStickyScroll.background": "#00708D",
+    "editorStickyScrollHover.background": "#59A2B5",
+    "activityBar.activeBackground": "#05848b",
+    "activityBar.background": "#05848b",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#fb84f4",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#05848b",
+    "statusBar.background": "#03555a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#05848b",
+    "statusBarItem.remoteBackground": "#03555a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#03555a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#03555a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.mdx": "markdown",
+    "*.mjs": "javascript"
+  },
+  "stylelint.validate": ["css"],
+  "css.validate": false,
+  "[css]": {
+    "editor.defaultFormatter": "bradlc.vscode-tailwindcss",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.insertFinalNewline": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[javascript][typescript][typescriptreact][javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
+  },
+  "markdownlint.run": "onSave",
+  "markdownlint.config": {
+    "MD010": {
+      "spaces_per_tab": 4
+    },
+    "MD025": false,
+    "MD033": false,
+    "MD034": false
+  },
+  "[jsonc][json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.autoIndent": "advanced",
+    "files.insertFinalNewline": true
+  },
+  "json.schemaDownload.enable": true,
+  "[yaml][dockercompose][github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "files.insertFinalNewline": true,
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "yaml.format.enable": true,
+  "cSpell.words": [
+    "Codecov",
+    "devcontainer",
+    "devcontainers",
+    "dockercompose",
+    "htmx",
+    "Tomoki",
+    "tomomon"
+  ],
+  "todo-tree.general.tags": [
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "REVIEW",
+    "OPTIMIZE",
+    "CHANGED",
+    "NOTE",
+    "WARNING"
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#000000",
+    "background": "#2C7CFF",
+    "iconColor": "#24ff41",
+    "opacity": 45
+  },
+  "todo-tree.highlights.customHighlight": {
+    "HACK": {
+      "icon": "zap"
+    },
+    "FIXME": {
+      "icon": "flame",
+      "background": "#f11e1e",
+      "iconColor": "#f11e1e"
+    },
+    "TODO": {
+      "icon": "check-circle"
+    },
+    "XXX": {
+      "icon": "x-circle",
+      "background": "#f8831d",
+      "iconColor": "#f8831d"
+    },
+    "REVIEW": {
+      "icon": "pin"
+    },
+    "OPTIMIZE": {
+      "icon": "rocket",
+      "background": "#f8831d",
+      "iconColor": "#f8831d"
+    },
+    "CHANGED": {
+      "icon": "issue-reopened"
+    },
+    "NOTE": {
+      "icon": "thumbsup"
+    },
+    "WARNING": {
+      "icon": "alert",
+      "background": "#f11e1e",
+      "iconColor": "#f11e1e"
+    }
+  },
+  "cSpell.ignorePaths": [".vscode", ".devcontainer/devcontainer.json"],
+  "errorLens.excludeBySource": ["cSpell"],
+  "tailwindcss-intellisense.trace.server": "messages"
+}
