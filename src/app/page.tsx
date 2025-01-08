@@ -1,11 +1,13 @@
+"use client";
+
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
-      <main className="max-w-[300px] w-full space-y-6 px-4 rounded-3xl border border-gray-200 p-6 dark:border-gray-700 flex flex-col items-center mt-3">
+      <main className="max-w-[300px] w-full space-y-6 px-4 rounded-3xl border border-gray-200 p-6 flex flex-col items-center mt-3">
         <div id="app-title">
-          <h1 className="text-2xl leading-6 text-gray-700 dark:text-gray-200 text-center">
+          <h1 className="text-2xl leading-6 text-gray-700 text-center">
             htmx Book App
           </h1>
         </div>
