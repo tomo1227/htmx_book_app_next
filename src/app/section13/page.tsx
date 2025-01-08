@@ -48,7 +48,7 @@ export default function Page() {
       </button>
 
       <h2>hx-on</h2>
-      <button type="button" hx-on:click="alert('こんにちは!')">
+      <button type="button" hx-on-click="alert('こんにちは!')">
         クリック
       </button>
 
